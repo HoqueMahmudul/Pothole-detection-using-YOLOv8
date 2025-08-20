@@ -99,14 +99,16 @@ This project evaluates the model using both **classification-style metrics** and
 - **Precision**: among predicted potholes, how many are correct?  
 - **Recall**: among real potholes, how many were found?  
 - **F1**: harmonic mean of Precision and Recall.  
-- **IoU (Jaccard Index)**:  
-\[
-IoU = \frac{Area\ of\ Overlap}{Area\ of\ Union}
-\]  
-- **Dice Coefficient**:  
-\[
-Dice = \frac{2 \times Area\ of\ Overlap}{Area\ of\ Prediction + Area\ of\ Ground\ Truth}
-\]  
+- **IoU (Jaccard Index):**  
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Large%20IoU=\frac{Area\ of\ Overlap}{Area\ of\ Union}" />
+</p>
+
+- **Dice Coefficient:**  
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Large%20Dice=\frac{2\times%20Area\ of\ Overlap}{Area\ of\ Prediction+Area\ of\ Ground\ Truth}" />
+</p>
+
 
 **Matching rule:** predictions and ground truth boxes are matched **one-to-one** using the Hungarian algorithm on an IoU-based cost.
 
