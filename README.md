@@ -101,12 +101,12 @@ This project evaluates the model using both **classification-style metrics** and
 - **F1**: harmonic mean of Precision and Recall.  
 - **IoU (Jaccard Index):**  
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\Large%20IoU=\frac{Area\ of\ Overlap}{Area\ of\ Union}" />
+  IoU = (Area of Overlap) / (Area of Union)
 </p>
 
 - **Dice Coefficient:**  
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\Large%20Dice=\frac{2\times%20Area\ of\ Overlap}{Area\ of\ Prediction+Area\ of\ Ground\ Truth}" />
+  Dice = 2 × (Area of Overlap) / (Area of Prediction + Area of Ground Truth)
 </p>
 
 
